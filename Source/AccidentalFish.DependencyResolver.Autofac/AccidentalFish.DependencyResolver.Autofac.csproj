@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <Description>Abstraction for popular dependency resolvers</Description>
+    <PackageLicenseUrl>https://github.com/JamesRandall/AccidentalFish.DependencyResolver/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/JamesRandall/AccidentalFish.DependencyResolver</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JamesRandall/AccidentalFish.DependencyResolver.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>net ioc</PackageTags>
+    <Company>Accidental Fish Ltd.</Company>
+    <Copyright>Copyright © Accidental Fish Ltd. 2017</Copyright>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccidentalFish.DependencyResolver\AccidentalFish.DependencyResolver.csproj" />
+  </ItemGroup>
+
+</Project>
