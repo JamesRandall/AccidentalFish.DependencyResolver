@@ -11,6 +11,7 @@
     <Company>Accidental Fish Ltd.</Company>
     <Copyright>Copyright © Accidental Fish Ltd. 2017</Copyright>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>James Randall</Authors>
   </PropertyGroup>
 
 </Project>

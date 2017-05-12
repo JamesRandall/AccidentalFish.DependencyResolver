@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <Authors>James Randall</Authors>
+    <Company>Accidental Fish Ltd.</Company>
+    <Product>AccidentalFish.DependencyResolver</Product>
+    <Description>Abstraction for popular dependency resolvers</Description>
+    <Copyright>Copyright © Accidental Fish Ltd. 2017</Copyright>
+    <PackageLicenseUrl>https://github.com/JamesRandall/AccidentalFish.DependencyResolver/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/JamesRandall/AccidentalFish.DependencyResolver</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JamesRandall/AccidentalFish.DependencyResolver.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>net ioc</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccidentalFish.DependencyResolver\AccidentalFish.DependencyResolver.csproj" />
+  </ItemGroup>
+
+</Project>
